@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* create animation */
+        @keyframes fadeout {
+            /* at 100% fade out the div box */
+            100% {
+                opacity: 0%;
+            }
+        }
+        div{
+            width: 195px;
+            height: 600px;
+        }
+        .red {
+            background-color: red;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            animation-name: fadeout;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(0,1,1,0);
+            animation-iteration-count: 100;
+            animation-delay: 10s;
+            animation-direction: alternate;
+        }
+        .orange {
+            background-color: orangered;
+            position: absolute;
+            top: 0px;
+            left: 195px;
+            animation-name: fadeout;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(0,1,1,0);
+            animation-iteration-count: 100;
+            animation-delay: 8s;
+            animation-direction: alternate;
+        }
+        .yellow {
+            background-color: yellow;
+            position: absolute;
+            top: 0px;
+            left: 390px;
+            animation-name: fadeout;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(0,1,1,0);
+            animation-iteration-count: 100;
+            animation-delay: 7s;
+            animation-direction: alternate;
+        }
+        .green {
+            background-color: green;
+            position: absolute;
+            top: 0px;
+            left: 585px;
+            animation-name: fadeout;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(0,1,1,0);
+            animation-iteration-count: 100;
+            animation-delay: 5s;
+            animation-direction: alternate;
+        }
+        .blue {
+            background-color: blue;
+            position: absolute;
+            top: 0px;
+            left: 780px;
+            animation-name: fadeout;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(0,1,1,0);
+            animation-iteration-count: 100;
+            animation-delay: 2s;
+            animation-direction: alternate;
+        }
+        .purple {
+            background-color: blueviolet;
+            position: absolute;
+            top: 0px;
+            left: 975px;
+            animation-name: fadeout;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(0,1,1,0);
+            animation-iteration-count: 100;
+            animation-delay: 3s;
+            animation-direction: alternate;
+        }
+        .pink {
+            background-color: purple;
+            position: absolute;
+            top: 0px;
+            left: 1170px;
+            animation-name: fadeout;
+            animation-duration: 1.5s;
+            animation-timing-function: cubic-bezier(0,1,1,0);
+            animation-iteration-count: 100;
+            animation-delay: 0s;
+            animation-direction: alternate;
+        }
+        #background {
+            background-color: black;
+        }
+    </style>
+</head>
+<body style="background-color: #000000;">
+    <div id="background"></div>
+    <div class="red"></div>
+    <div class="orange"></div>
+    <div class="yellow"></div>
+    <div class="green"></div>
+    <div class="blue"></div>
+    <div class="purple"></div>
+    <div class="pink"></div>
+</body>
+</html>
