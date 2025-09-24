@@ -1,31 +1,36 @@
 <html>
   <head>
     <title>The Very Hungry Genetically-Modified Caterpillar</title>
+    <link rel="stylesheet" href="animations.css" type="text/css">
     <style>
-      #flor {
-        width: 100vw;
-        height: 5vh;
-        background-color: gray;
-        border-style: solid;
-        border-color: black;
-        border-width: 10px;
-        position: static;
-        bottom: 0;
-      }
-      #title {
-          position: absolute;
-          top: 50vh;
-          left: 50vw;
-          transform: translate(-50%,-50%);
-          width: 400px;
-          height: 400px;
-          font-size: 6rem;
-          background-color: cyan;
+        #floor {
+            width: 100vw;
+            height: 30vh;
+            background-color: rgb(128, 128, 128);
+            border-style: solid;
+            border-color: black;
+            border-width: 5px;
+            position: absolute;
+            bottom: -5px;
+            left: 0px;
+        }
+        #title {
+            position: absolute;
+            top: 45vh;
+            left: 50vw;
+            transform: translate(-50%,-50%);
+            width: 600px;
+            height: 300px;
+            font-size: 2.5rem;
+            animation-name: fadein;
+            animation-iteration-count: 1;
+            animation-duration: 2s;
+            
         }
     </style>
   </head>
   <body>
-    <div id="title">The Very Hungry Genetically-Modified Caterpillar<div>
+    <div id="title">The Very Hungry Genetically-Modified Caterpillar</div>
     <div id="floor"></div>
   </body>
 </html>
