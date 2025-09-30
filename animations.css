@@ -6,3 +6,42 @@
         opacity: 100%;
     }
 }
+#home {
+    clip-path: polygon(50% 0%, 100% 44%, 80% 43%, 81% 100%, 17% 100%, 19% 45%, 0 45%);
+    background-color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 13px;
+}
+#next {
+    width: 60px;
+    height: 30px;
+    background-color: goldenrod;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    right: 70px;
+}
+#back {
+    width: 60px;
+    height: 30px;
+    background-color: goldenrod;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    position: absolute;
+    top: 25px;
+    right: 70px;
+}
