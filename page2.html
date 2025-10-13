@@ -1,7 +1,10 @@
 <html>
-  <head>
-    <title>The Very Hungry Genetically-Modified Caterpillar</title>
-    <link rel="stylesheet" href="animations.css" type="text/css">    <style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="animations.css" type="text/css">
+    <style>
         #floor {
             width: 100vw;
             height: 30vh;
@@ -16,12 +19,12 @@
         #sideone{
             width: 200px;
             height: 200px;
-            background-color: rgb(231, 0, 0);
+            background-color: red;
             clip-path: ellipse(42% 49% at 50% 50%);
             position: absolute;
             left: 0px;
             top: 0px;
-            z-index: 2;
+            z-index: 6;
         }
         #sidetwo{
             width: 200px;
@@ -44,9 +47,9 @@
         }
         #apple{
             position: absolute;
-            z-index: 2;
+            z-index: 4;
             top: 43vh;
-            left: 65vw;
+            left: 50vw;
             transform: translate(-50%,-50%);
         }
         #hole{
@@ -66,15 +69,18 @@
             font-size: 1.4rem;
         }
         #caterpillar{
-            background-image: url(https://d2u4q3iydaupsp.cloudfront.net/G40pNJ0XNPhqdsgFOIvdvDv3IFGGk1ouQgR3jdE6k8yV6mUc4H208y3Gl0u20wzoDV1Eerk1ZxpL5HB4b3WpMIvwSpsMjTy7os6rd3yN9WJruwAiIytrMN35qsS10x3Q);
+            background-image: url("catpilar.png");
             background-size: cover;
-            width: 400px;
-            height: 300px;
+            width: 200px;
+            height: 150px;
             position: absolute;
-            z-index: 3;
-            top: 55vh;
-            left: 25vw;
-            transform: translate(-50%,-50%);
+            z-index: 5;
+            top: 25px;
+            left: 20px;
+            animation-name: moveout;
+            animation-iteration-count: 1;
+            animation-duration: 10s;
+            animation-timing-function: cubic-bezier(0,0,1,1);
         }
     </style>
 </head>
@@ -85,14 +91,13 @@
         <div id="sidetwo"></div>
         <div id="stem"></div>
         <div id="hole"></div>
+        <div id="caterpillar"></div>
     </div>
-    <div id="text">On Monday, he ate through one apple, but he was still hungry.</div>
-    <div id="caterpillar"></div>
-    <div id="home">
+    <div id="text">On Monday, he ate through one apple, but he was still hungry.</div>    <div id="home">
         <a href="https://aceia808.github.io/index">Home</a>
     </div>
     <div id="next">
-        <a href="https://aceia808.github.io/index">Next</a>
+        <a href="https://aceia808.github.io/page3">Next</a>
     </div>
     <div id="back">
         <a href="https://aceia808.github.io/index">Back</a>
