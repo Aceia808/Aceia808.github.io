@@ -6,6 +6,22 @@
         opacity: 100%;
     }
 }
+@keyframes moveout {
+    0%{
+        transform: translate(-50%,0);
+    }
+    100%{
+        transform: translate(100%,0);
+    }
+}
+@keyframes skewy {
+    50%{
+        transform: skew(180deg);
+    }
+    100%{
+        transform: skewX(95deg);
+    }
+}
 #home {
     clip-path: polygon(50% 0%, 100% 44%, 80% 43%, 81% 100%, 17% 100%, 19% 45%, 0 45%);
     background-color: goldenrod;
@@ -45,4 +61,5 @@
     top: 25px;
     right: 140px;
 }
+
 
